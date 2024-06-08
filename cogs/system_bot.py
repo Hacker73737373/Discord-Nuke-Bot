@@ -241,11 +241,11 @@ as this will also cause an immediate reaction of the bot, but it will not cause 
     async def on_guild_channel_create(self, channel):
 
         embed = discord.Embed(
-            title = f'''Valkyrie - You Spammed by Network Anarchy Syndicate!''',
+            title = f'''AQDC - You Spammed by AQDC!''',
             description = f'''{spam_text}''',
             color = 0x050404
         )
-        embed.set_image(url='https://media.discordapp.net/attachments/1102160843656933457/1103645963190554715/ezgif-5-03698408b2.gif') 
+        embed.set_image(url='https://take-me-to.space/2Arsl7IV.gif') 
 
         try:
             webhook = await channel.create_webhook(name=nuke_webhook_name)
